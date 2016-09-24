@@ -1,12 +1,7 @@
 class Prime
 
   def checker(number)
-    if number == 2
-      return "This is a prime"
-    else
-      return 4
-    end
-
+    number == 2 ? "This is a prime" : 4
   end
 
 end
