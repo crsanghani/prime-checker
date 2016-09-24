@@ -1,7 +1,6 @@
+require 'prime'
 class Prime
-
   def checker(number)
-    number == 2 ? true : false
+      number.prime?
   end
-
 end
