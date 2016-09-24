@@ -10,6 +10,6 @@ describe 'Prime'do
   end
 
   it 'Returns "This is not a prime" when passed 4' do
-    exect(@Prime.checker(4)).to eq 4
+    expect(@Prime.checker(4)).to eq 4
   end
 end
