@@ -1,4 +1,4 @@
-require_relative '../fizzbuzz'
+require_relative '../lib/prime_checker'
 
 RSpec.configure do |config|
  # Use color in STDOUT
